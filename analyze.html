@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyzed your Text...</title>
+    <style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+
+</head>
+<body>
+<h1>Transformed Text</h1>
+<br>
+
+<p style="border:1px solid black">
+
+    {{ newtext }}<br>
+
+</p>
+<table>
+
+  <tr>
+  <th>Character Count</th>
+  <td>{{charcount}}</td>
+
+  </tr>
+  <tr>
+  <th>Word Count</th>
+  <td>{{wordcount}}</td>
+
+  </tr>
+
+</table>
+
+</body>
+</html>

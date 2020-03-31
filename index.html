@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Analyzer</title>
+</head>
+<body>
+<h1>
+    Welcome to the text analyzer
+</h1>
+<h2>
+    Enter Your text below
+</h2>
+<form action='/analyze' method='get'>
+    <textarea name="text" style="margin: 0px;width: 1123px;height: 179px;"></textarea>
+    <br>
+    <input type="checkbox"  name="removespace">Remove Extra Spaces<br>
+    <input type="checkbox"  name="fullcaps">Convert to UPPER CASE<br>
+    <input type="checkbox" name="charcount">Get Char count<br>
+    <input type="checkbox" name="wordcount">Get word count<br>
+    <button type="submit" >Analyze Text</button>
+</form>
+</body>
+</html>
